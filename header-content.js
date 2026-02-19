@@ -3,10 +3,7 @@
 const headerContent = `
   <div class="logo-container">
     <img src="images/logo.jpg" alt="Taubenhilfe Mettmann Logo" class="logo-image">
-    <div class="logo-text">
-      <h1 class="site-title">Friedensfedern Mettmann e.V.i.G.</h1>
-      <p class="tagline">Hilfe und Schutz für Stadttauben</p>
-    </div>
+    <img src="images/header.jpeg" alt="Friedensfedern Mettmann e.V.i.G. - Hilfe und Schutz für Stadttauben" class="logo-text-image">
     <button class="mobile-menu-toggle" aria-label="Menü öffnen">
       <span class="hamburger-icon">
         <span class="bar"></span>
