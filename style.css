@@ -830,6 +830,8 @@ nav a.active::after {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 0.9em;
+  display: block;
+  margin: 0 auto;
 }
 
 .submit-button:hover {
@@ -999,6 +1001,44 @@ nav a.active::after {
   font-size: 1.2em;
   margin-bottom: 10px;
 }
+
+/* --- DOWNLOAD BOX --- */
+.contact-form-column {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.download-box {
+  background-color: white;
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.download-box {
+  text-align: center;
+}
+
+.download-button {
+  display: inline-block;
+  margin-top: 1em;
+  padding: 0.8em 2em;
+  background-color: #3498db;
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s;
+}
+
+.download-button:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}                          
 
 /* ==========================================================================
    Komponenten: Interaktive Elemente (FAQ, Modals)
@@ -1639,6 +1679,10 @@ body.modal-open {
   
   .contact-container {
     grid-template-columns: 1fr;
+  }
+
+  .download-box {                                                                                                                                        
+    grid-column: 1;                                                                                                                                      
   }
 
   .page-header h1 {
