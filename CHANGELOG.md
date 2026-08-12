@@ -2,6 +2,18 @@
 
 Alle wichtigen Aenderungen an diesem Projekt werden hier dokumentiert.
 
+## [2026-08-12] - Rechtsformzusatz "i.G." aus dem Vereinsnamen entfernt
+
+### Changed
+- Vereinsname projektweit von "Friedensfedern Mettmann e.V.i.G." auf "Friedensfedern Mettmann e.V." geaendert (55 Vorkommen in 10 Dateien: index, ueber-uns, aktuelles, kontakt, impressum, datenschutz, danke, header-content.js, footer-content.js, CLAUDE.md)
+- Vier uneinheitliche Schreibvarianten (e.V.i.G / e.V.i.G. / e.V. i.G / e.V. i.G.) dabei auf die einheitliche Form "e.V." normalisiert
+- Hinweis zur Spendenquittung auf kontakt.html umformuliert: Der Verweis auf den Zusatz "i.G" als Hinderungsgrund entfaellt, Spendenquittungen werden nun angeboten
+- .gitignore ergaenzt um .claude/settings.local.json (maschinenspezifische Werkzeug-Berechtigungen gehoeren nicht ins Repo)
+
+### Offen (nicht per Code aenderbar)
+- images/header.jpeg traegt den Schriftzug "Mettmann e.V. i.G." als Grafik und muss bildbearbeitet werden
+- downloads/mitgliedsantrag.pdf enthaelt 9x "Friedensfedern Mettmann e. V. i. G." und muss neu erstellt werden
+
 ## [2026-02-23] - SEO-Tags umfassend optimiert
 
 ### Added

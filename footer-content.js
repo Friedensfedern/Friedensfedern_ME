@@ -24,7 +24,7 @@ const footerContent =`
   </div>
 
   <div class="copyright">
-    <p>© 2026 Friedensfedern Mettmann e.V. i.G | <a href="impressum.html">Impressum</a> | <a href="datenschutz.html">Datenschutz</a></p>
+    <p>© 2026 Friedensfedern Mettmann e.V. | <a href="impressum.html">Impressum</a> | <a href="datenschutz.html">Datenschutz</a></p>
   </div>
 `;
 

@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Projekt
 
-Statische Website des Vereins "Friedensfedern Mettmann e.V.i.G" (Stadttauben-Tierschutz). Gehostet unter `friedensfedern-mettmann.de` (GitHub Pages mit Custom Domain).
+Statische Website des Vereins "Friedensfedern Mettmann e.V." (Stadttauben-Tierschutz). Gehostet unter `friedensfedern-mettmann.de` (GitHub Pages mit Custom Domain).
 
 ## Entwicklung
 
