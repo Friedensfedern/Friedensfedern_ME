@@ -4,3 +4,6 @@ REMINDER.md
 
 # Windows-Metadaten
 *:Zone.Identifier
+
+# Claude Code lokale Einstellungen
+.claude/settings.local.json
